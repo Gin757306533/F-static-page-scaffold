@@ -16,7 +16,7 @@ body {
 .container {
   background: #e9ebee;
   margin: 0 auto;
-  height: 500px;
+  height: 600px;
   width: 95%;
 }
 
@@ -62,7 +62,6 @@ body {
 .content {
   width: 981px;
   margin: 0 auto;
-  border: 1px solid red;
   height: 500px;
 }
 
@@ -73,6 +72,38 @@ body {
 
 .content-describe {
   font-size: 12px;
+}
+
+.content-role {
+  margin-top: 40px;
+  background-color: white;
+  width: 48%;
+  float: left;
+}
+
+.content-role-img {
+  display: block;
+  margin: 10px auto;
+}
+
+.content-role-title {
+  font-weight: bold;
+  text-align: center;
+}
+
+.content-role-desc {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.content-role-button {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.content-role:last-child {
+  margin-left: 20px;
 }
 
 ul {
