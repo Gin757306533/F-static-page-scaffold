@@ -13,6 +13,31 @@ body {
   box-sizing: border-box;
 }
 
+.container {
+  background: #e9ebee;
+  margin: 0 auto;
+  height: 500px;
+  width: 95%;
+}
+
+.header {
+  background: #3b5998;
+  color: white;
+  font-size: 15px;
+  line-height: 50px;
+}
+
+.header-inside {
+  width: 981px;
+  margin: 0 auto;
+}
+
+.content {
+  width: 981px;
+  margin: 0 auto;
+  border: 1px solid red;
+  height: 500px;
+}
 ul {
   list-style: none;
   margin: 0;
