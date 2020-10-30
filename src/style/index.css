@@ -47,16 +47,23 @@ body {
   display: inline;
   font-size: 11px;
   float: right;
+  margin-right: 20px;
 }
 
 .header-join-facebook-triangle {
+  display: inline-block;
   width: 0;
   height: 0;
-  border: 5px solid transparent;
-  border-top-color: white;
-  border-bottom: none;
-  border-left-color: transparent;
-  border-right-color: transparent;
+  overflow: hidden;
+  line-height: 0;
+  font-size: 0;
+  vertical-align: middle;
+  border-top: 5px solid #ffffff;
+  border-bottom: 0 none;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  _color: #ff3fff;
+  _filter: chroma(color=#FF3FFF);
 }
 
 .content {
